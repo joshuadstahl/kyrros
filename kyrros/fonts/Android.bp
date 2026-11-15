@@ -1,0 +1,60 @@
+prebuilt_font {
+    name: "EBGaramond-Bold.ttf",
+    src: "EBGaramond-Bold.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-BoldItalic.ttf",
+    src: "EBGaramond-BoldItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-ExtraBold.ttf",
+    src: "EBGaramond-ExtraBold.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-ExtraBoldItalic.ttf",
+    src: "EBGaramond-ExtraBoldItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-Italic.ttf",
+    src: "EBGaramond-Italic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-Medium.ttf",
+    src: "EBGaramond-Medium.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-MediumItalic.ttf",
+    src: "EBGaramond-MediumItalic.ttf",
+    product_specific: true,
+}
+
+
+prebuilt_font {
+    name: "EBGaramond-Regular.ttf",
+    src: "EBGaramond-Regular.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-SemiBold.ttf",
+    src: "EBGaramond-SemiBold.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "EBGaramond-SemiBoldItalic.ttf",
+    src: "EBGaramond-SemiBoldItalic.ttf",
+    product_specific: true,
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fonts-modification version="1">
+    <family customizationType="new-default">
+        <font weight="400" style="normal">EBGaramond-Regular.ttf</font>
+	<font weight="500" style="normal">EBGaramond-Medium.ttf</font>
+	<font weight="600" style="normal">EBGaramond-SemiBold.ttf</font>
+        <font weight="700" style="normal">EBGaramond-Bold.ttf</font>
+	<font weight="800" style="normal">EBGaramond-ExtraBold.ttf</font>
+        <font weight="400" style="italic">EBGaramond-Italic.ttf</font>
+	<font weight="500" style="italic">EBGaramond-MediumItalic.ttf</font>
+        <font weight="700" style="italic">EBGaramond-BoldItalic.ttf</font>
+        <font weight="700" style="italic">EBGaramond-SemiBoldItalic.ttf</font>
+	<font weight="800" style="italic">EBGaramond-ExtraBoldItalic.ttf</font>
+    </family>
+</fonts-modification>

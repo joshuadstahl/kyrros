@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://android.com"
+    package="com.custom.overlay.font">
+
+    <overlay
+        android:targetPackage="android"
+        android:isStatic="true"
+        android:priority="100" />
+</manifest>

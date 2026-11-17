@@ -27,11 +27,6 @@ fi
 echo "--> Loading baseline LineageOS device maps..."
 breakfast bluejay
 
-# 4. Verify the Blueprint/Ninja graph
-echo "--> Running environment configuration check (m nothing)..."
-m nothing
-
 # 5. Compile the flashable ROM zip
 echo "--> Building flashable ROM package (m bacon)..."
 m bacon
-

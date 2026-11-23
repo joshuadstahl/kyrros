@@ -15,6 +15,9 @@ CUSTOM_FONTS := \
     EBGaramond-SemiBoldItalic.ttf \
     EBGaramond-ExtraBoldItalic.ttf
 
+#Filter out Lineage's default fonts_customization.xml to avoid conflicts with our custom one
+PRODUCT_PACKAGES := $(filter-out fonts_customization.xml, $(PRODUCT_PACKAGES))
+
 PRODUCT_PACKAGES += \
     $(CUSTOM_FONTS) \
     CustomFontOverlay \

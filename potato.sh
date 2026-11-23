@@ -23,6 +23,9 @@ if [ -f "$BLUEJAY_MK" ] && ! grep -q "packages/apps/kyrros/kyrros/kyrros.mk" "$B
     echo "$HOOK_LINE" >> "$BLUEJAY_MK"
 fi
 
+echo "--> Injecting merged fonts_customization.xml into Lineage overlay..."
+cp -f packages/apps/kyrros/fonts/fonts_customization.xml packages/overlays/Lineage/fonts/etc/fonts_customization.xml
+
 # 3. Load the LineageOS bluejay target (automatically inherits kyrros.mk)
 echo "--> Loading baseline LineageOS device maps..."
 breakfast bluejay
@@ -30,3 +33,6 @@ breakfast bluejay
 # 5. Compile the flashable ROM zip
 echo "--> Building flashable ROM package (m bacon)..."
 m bacon
+
+echo "--> Build completed, cleaning up git repos"
+git -C packages/overlays/Lineage checkout -- fonts/etc/fonts_customization.xml

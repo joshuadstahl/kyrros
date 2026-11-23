@@ -20,8 +20,7 @@ PRODUCT_PACKAGES := $(filter-out fonts_customization.xml, $(PRODUCT_PACKAGES))
 
 PRODUCT_PACKAGES += \
     $(CUSTOM_FONTS) \
-    CustomFontOverlay \
-	kyrros_fonts_customization
+    CustomFontOverlay
 
 # Font XML mapping
 #PRODUCT_COPY_FILES += \

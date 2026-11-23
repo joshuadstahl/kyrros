@@ -27,4 +27,4 @@ PRODUCT_PACKAGES += \
 #    packages/apps/kyrros/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 # Custom boot animation
-TARGET_CUSTOM_BOOTANIMATION := packages/apps/kyrros/bootanimation/bootanimation.zip
+TARGET_CUSTOM_BOOTANIMATION := packages/apps/kyrros/kyrros/bootanimation/bootanimation.zip

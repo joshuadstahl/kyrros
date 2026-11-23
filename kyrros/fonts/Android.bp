@@ -62,7 +62,7 @@ prebuilt_font {
 prebuilt_etc {
     name: "kyrros_fonts_customization",
     src: "fonts_customization.xml",
+    enabled: false,
     filename: "fonts_customization.xml",
-    product_specific: true,
-    overrides: ["fonts_customization.xml"],
+    product_specific: true
 }

@@ -24,7 +24,7 @@ if [ -f "$BLUEJAY_MK" ] && ! grep -q "packages/apps/kyrros/kyrros/kyrros.mk" "$B
 fi
 
 echo "--> Injecting merged fonts_customization.xml into Lineage overlay..."
-cp -f packages/apps/kyrros/fonts/fonts_customization.xml packages/overlays/Lineage/fonts/etc/fonts_customization.xml
+cp -f packages/apps/kyrros/kyrros/fonts/fonts_customization.xml packages/overlays/Lineage/fonts/etc/fonts_customization.xml
 
 # 3. Load the LineageOS bluejay target (automatically inherits kyrros.mk)
 echo "--> Loading baseline LineageOS device maps..."

@@ -1,9 +1,4 @@
 <resources>
-    <string name="config_bodyFontFamily" translatable="false">EBGaramond-Regular</string>
-    <string name="config_bodyFontFamilyMedium" translatable="false">EBGaramond-Medium</string>
-    <string name="config_headlineFontFamily" translatable="false">EBGaramond-SemiBold</string>
-    <string name="config_headlineFontFamilyMedium" translatable="false">EBGaramond-Bold</string>
-    
     <string name="config_bodyFontFamily" translatable="false">ebgaramond</string>
     <string name="config_bodyFontFamilyMedium" translatable="false">ebgaramond</string>
     <string name="config_headlineFontFamily" translatable="false">ebgaramond</string>

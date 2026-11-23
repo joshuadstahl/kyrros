@@ -17,11 +17,12 @@ CUSTOM_FONTS := \
 
 PRODUCT_PACKAGES += \
     $(CUSTOM_FONTS) \
-    CustomFontOverlay
+    CustomFontOverlay \
+	kyrros_fonts_customization
 
 # Font XML mapping
-PRODUCT_COPY_FILES += \
-    packages/apps/kyrros/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+#PRODUCT_COPY_FILES += \
+#    packages/apps/kyrros/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 # Custom boot animation
 TARGET_CUSTOM_BOOTANIMATION := packages/apps/kyrros/bootanimation/bootanimation.zip

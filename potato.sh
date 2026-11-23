@@ -17,7 +17,7 @@ source build/envsetup.sh
 BLUEJAY_MK="vendor/lineage/config/common.mk"
 HOOK_LINE="\$(call inherit-product-if-exists, packages/apps/kyrros/kyrros.mk)"
 
-if [ -f "$BLUEJAY_MK" ] && ! grep -q "packages/apps/kyrros/kyrros.mk" "$BLUEJAY_MK"; then
+if [ -f "$BLUEJAY_MK" ] && ! grep -q "packages/apps/kyrros/kyrros/kyrros.mk" "$BLUEJAY_MK"; then
     echo "--> Hooking kyrros.mk into $BLUEJAY_MK..."
     echo "" >> "$BLUEJAY_MK"
     echo "$HOOK_LINE" >> "$BLUEJAY_MK"
